@@ -1,2 +1,13 @@
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+/* Additional styling for the items within the holder (optional) */
+.holder .item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
 /* Your CSS Code here. */
